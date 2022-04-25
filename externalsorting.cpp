@@ -17,16 +17,16 @@ using namespace std;
  
  int main()
  {
-   int b,freq,records;
-   cin>>b>>freq>>records;
-   vector<int>arr(records+1,0);
-   for(int i=1;i<=records;i++)
+   int b,freq,n;
+   cin>>b>>freq>>n;
+   vector<int>arr(n+1,0);
+   for(int i=1;i<=n;i++)
    {
        cin>>arr[i];
    }
    srt(arr);
    for(int i=1;i<=n;i++)
    {
-       cout<<records[i]<<" ";
+       cout<<arr[i]<<" ";
    }
  }
